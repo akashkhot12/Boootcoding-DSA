@@ -11,8 +11,16 @@ let total=0;
 for(let i=0;i<nums.length;i++){
     sum += nums[i];
 }
-for(let j=0;j<nums.length;j++){
-    total += nums[j];
-}
+let rem ;
+let res=0;
 
-console.log(sum+total)
+for(let j=0;j<nums.length;j++){
+    n=nums[j]
+    while(n!=0){
+        rem=n%10;
+        res+=rem;
+        n=Math.floor(n/10);
+      }
+    }
+console.log(sum-res);
+
