@@ -6,4 +6,4 @@ var isPerfectSquare = function(num) {
     return isSqrt;
     
 }
-console.log(isPerfectSquare(14))
+console.log(isPerfectSquare(16))
