@@ -8,7 +8,8 @@
 let nums =[1,15,6,3] 
 let sum = 0 ; 
 let total=0;
-for(let i=0;i<nums.length;i++){
+for(let i=0;i<nums.length;i++)
+{
     sum += nums[i];
 }
 let rem ;
